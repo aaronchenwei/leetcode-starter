@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard",
+    "plugin:jest/recommended",
+    "prettier",
+    "prettier/standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": { "no-console": "off" }
+}
